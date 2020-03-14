@@ -44,47 +44,43 @@ namespace KeThua
         public class B : A { }*/
 
         // Overriding Method
-        class Animal
+        class constructor
         {
-            public Animal()
+            public constructor()
             {
-                Console.WriteLine("Animal constructor");
+                Console.WriteLine("constructor");
             }
-            public void Talk()
+            public void example()
             {
-                Console.WriteLine("Animal talk");
+                Console.WriteLine("constructor");
             }
             // Tính đa hình
-            public virtual void Talk1()
+            public virtual void example1()
             {
-                Console.WriteLine("Animal talk 1");
+                Console.WriteLine("duconstructor");
             }
         }
-        class Dog : Animal
+        class constructor_new : constructor
         {
-            public Dog()
+            public constructor_new()
             {
-                Console.WriteLine("Dog Constructor");
+                Console.WriteLine("Constructor");
             }
-            public new void Talk()
+            public void example()
             {
-                Console.WriteLine("Dog talk");
+                Console.WriteLine("constructor");
             }
-            public override void Talk1()
+            public void example1()
             {
-                Console.WriteLine("Dog talk 1");
+                Console.WriteLine("duconstructor");
             }
         }
 
         // Abstract Class
         abstract class Shape
         {
-            #region Khai báo các field
-            protected float m_Height = 5;
-            protected float m_Width = 10;
-            #endregion
-
-            #region Khai báo cáo Method
+            protected float m_Height = 15;
+            protected float m_Width = 20;
             public abstract void CalculateArea();
             public abstract void CalculateCircumference();
             public void PrintHeight()
@@ -95,11 +91,10 @@ namespace KeThua
             {
                 Console.WriteLine("Width = {0}", m_Width);
             }
-            #endregion
         }
-        class RectangleKeThua : Shape
+        class RectangleKT : Shape
         {
-            public RectangleKeThua()
+            public RectangleKT()
             {
                 m_Height = 20;
                 m_Width = 30;
