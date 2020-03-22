@@ -1,0 +1,8 @@
+D:\GitHub\LTMTTQ\Tuan_3\Module_2\Bai_2\Bai_2\bin\Debug\Bai_2.exe.config
+D:\GitHub\LTMTTQ\Tuan_3\Module_2\Bai_2\Bai_2\bin\Debug\Bai_2.exe
+D:\GitHub\LTMTTQ\Tuan_3\Module_2\Bai_2\Bai_2\bin\Debug\Bai_2.pdb
+D:\GitHub\LTMTTQ\Tuan_3\Module_2\Bai_2\Bai_2\obj\Debug\Bai_2.Bai_2.resources
+D:\GitHub\LTMTTQ\Tuan_3\Module_2\Bai_2\Bai_2\obj\Debug\Bai_2.Properties.Resources.resources
+D:\GitHub\LTMTTQ\Tuan_3\Module_2\Bai_2\Bai_2\obj\Debug\Bai_2.csproj.GenerateResource.cache
+D:\GitHub\LTMTTQ\Tuan_3\Module_2\Bai_2\Bai_2\obj\Debug\Bai_2.exe
+D:\GitHub\LTMTTQ\Tuan_3\Module_2\Bai_2\Bai_2\obj\Debug\Bai_2.pdb
