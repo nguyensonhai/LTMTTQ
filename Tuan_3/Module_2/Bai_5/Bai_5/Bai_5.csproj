@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A6696860-2F41-4869-BFC3-8F3DA54BE2F3}</ProjectGuid>
+    <ProjectGuid>{7A777EDA-37F1-43CA-85DD-38AF96ED3590}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Bai_4</RootNamespace>
-    <AssemblyName>Bai_4</AssemblyName>
+    <RootNamespace>Bai_5</RootNamespace>
+    <AssemblyName>Bai_5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bai_4.cs">
+    <Compile Include="Bai_5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Bai_4.Designer.cs">
-      <DependentUpon>Bai_4.cs</DependentUpon>
+    <Compile Include="Bai_5.Designer.cs">
+      <DependentUpon>Bai_5.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Bai_4.resx">
-      <DependentUpon>Bai_4.cs</DependentUpon>
+    <EmbeddedResource Include="Bai_5.resx">
+      <DependentUpon>Bai_5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
