@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Person" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NERO-PC\SQLEXPRESS;Initial Catalog=Person;Integrated Security=True" SettingsObjectName="Ktra.Properties.Settings" SettingsPropertyName="PersonConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.person" Member="persons">
+    <Type Name="person">
+      <Column Name="name" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.addPerson" Method="addPerson">
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Age" Parameter="age" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
